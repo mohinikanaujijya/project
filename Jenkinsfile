@@ -26,7 +26,7 @@ pipeline {
         stage('verify deployment') {
             steps {
                 sh '''
-                curl -f http://192.168.115.133:8090
+                curl -f http://192.168.115.133:8080
                 '''
             }
         }
